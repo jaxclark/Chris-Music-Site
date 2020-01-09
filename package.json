@@ -1,0 +1,20 @@
+{
+  "name": "chris-music-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxclark/Chris-Music-Site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxclark/Chris-Music-Site/issues"
+  },
+  "homepage": "https://github.com/jaxclark/Chris-Music-Site#readme",
+  "keywords": [],
+  "description": ""
+}
