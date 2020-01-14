@@ -16,4 +16,13 @@ function ContextProvider(props) {
         user: JSON.parse(localStorage.getItem('user')) || {},
         token: localStorage.getItem('token') || ''
     })
+    const [music, setMusic] = useState([])
+
+    const getMusic = () => {
+        return musicAxios.get('/squid/add')
+            .then(res => {
+                setMusic(res.data)
+                return res
+            })
+    }
 }
