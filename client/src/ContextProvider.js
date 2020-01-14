@@ -8,3 +8,12 @@ musicAxios.interceptors.request.use((config) => {
     config.headers.Authorization = `Bearer ${token}`
     return config
 })
+
+const Context = React.createContext()
+
+function ContextProvider(props) {
+    const [userState, setUserState] = useState({
+        user: JSON.parse(localStorage.getItem('user')) || {},
+        token: localStorage.getItem('token') || ''
+    })
+}
