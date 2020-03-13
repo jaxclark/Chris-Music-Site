@@ -3,6 +3,7 @@ import React from 'react'
 export default function LandingPage() {
     return(
         <div className='langingPage'>
+            <img src="https://cdn.discordapp.com/attachments/632280517013930044/687878880333135872/IMG_0032.jpeg" alt="squid"/>
             <p>
                 <strong>Rhythm Squid</strong><br/>
                 Bio:<br/>
